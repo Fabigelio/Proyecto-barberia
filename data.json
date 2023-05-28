@@ -1,0 +1,49 @@
+{
+    "cortes": [
+      {
+        "nombre": "Corte Clásico",
+        "imagenes": [
+        "Barba/barba (1).jpeg",
+        "Barba/barba (2).jpeg",
+        "Barba/barba (3).jpeg",
+        "Barba/barba (4).jpeg",
+        "Barba/barba (5).jpeg",
+        "Barba/barba (6).jpeg"
+        ]
+      },
+      {
+        "nombre": "Corte Fade",
+        "imagenes": [
+        "Fade/fade (1).jpeg",
+        "Fade/fade (2).jpeg",
+        "Fade/fade (3).jpeg",
+        "Fade/fade (4).jpeg",
+        "Fade/fade (5).jpeg",
+        "Fade/fade (6).jpeg",
+        "Fade/fade (7).jpeg",
+        "Fade/fade (8).jpeg",
+        "Fade/fade (9).jpeg",
+        "Fade/fade (10).jpeg",
+        "Fade/fade (11).jpeg",
+        "Fade/fade (12).jpeg",
+        "Fade/fade (13).jpeg",
+        "Fade/fade (14).jpeg",
+        "Fade/fade (15).jpeg",
+        "Fade/fade (16).jpeg",
+        "Fade/fade (17).jpeg"
+        ]
+      },
+      {
+        "nombre": "Corte Tijeras",
+        "imagenes": [
+        "Tijeras/corte (1).jpeg",
+        "Tijeras/corte (2).jpeg",
+        "Tijeras/corte (4).jpeg",
+        "Tijeras/corte (5).jpeg",
+        "Tijeras/corte (6).jpeg",
+        "Tijeras/corte (7).jpeg",
+        "Tijeras/corte (8).jpeg"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Mr.Gonzalez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Barbería Mr.Gonzalez</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Barbería Mr.Gonzalez</h2>
+        <p>Ofrecemos servicios de corte, peinado y coloración para hombres.
+            Para ayudarte a lucir tu mejor versión.</p>
+            <img src="img/Logo.jpg">
+            <p></p>
+        <a href="#contacto" class="btn">Agenda tu cita</a>
+    </section>
+
+    <main>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Cortes de cabello para hombres</li>
+                <li>Peinados para ocasiones especiales</li>
+                <li>Coloración y reflejos</li>
+                <li>Tratamientos capilares</li>
+            </ul>
+        </section>
+    
+        <section id="galeria">
+            <h2>Galería de Cortes de Pelo</h2>
+            <div class="filtro">
+                <label for="estilo">Filtrar por estilo:</label>
+                <select id="estilo">
+                    <option value="todos">Todos</option>
+                    <option value="clasico">Clásico</option>
+                    <option value="Fade">Fade</option>
+                    <option value="Tijeras">Tijeras</option>
+                </select>
+            </div>
+            <div class="grid">
+                <div class="corte clasico">
+                    <img src="Barba/barba (1).jpeg" alt="Corte Clásico 1">
+                    <img src="Barba/barba (2).jpeg" alt="Corte Clásico 2">
+                    <img src="Barba/barba (3).jpeg" alt="Corte Clásico 3">
+                    <img src="Barba/barba (4).jpeg" alt="Corte Clásico 4">
+                    <img src="Barba/barba (5).jpeg" alt="Corte Clásico 5">
+                    <img src="Barba/barba (6).jpeg" alt="Corte Clásico 6">
+                    <h3>Corte Clásico y Barba</h3>
+                </div>
+                <div class="corte Fade">
+                    <img src="Fade/fade (1).jpeg" alt="Corte Moderno 1">
+                    <img src="Fade/fade (2).jpeg" alt="Corte Moderno 2">
+                    <img src="Fade/fade (3).jpeg" alt="Corte Moderno 3">
+                    <img src="Fade/fade (4).jpeg" alt="Corte Moderno 4">
+                    <img src="Fade/fade (5).jpeg" alt="Corte Moderno 5">
+                    <img src="Fade/fade (6).jpeg" alt="Corte Moderno 6">
+                    <img src="Fade/fade (7).jpeg" alt="Corte Moderno 7">
+                    <img src="Fade/fade (8).jpeg" alt="Corte Moderno 8">
+                    <img src="Fade/fade (9).jpeg" alt="Corte Moderno 9">
+                    <img src="Fade/fade (10).jpeg" alt="Corte Moderno 10">
+                    <img src="Fade/fade (11).jpeg" alt="Corte Moderno 11">
+                    <img src="Fade/fade (12).jpeg" alt="Corte Moderno 12">
+                    <img src="Fade/fade (13).jpeg" alt="Corte Moderno 13">
+                    <img src="Fade/fade (14).jpeg" alt="Corte Moderno 14">
+                    <img src="Fade/fade (15).jpeg" alt="Corte Moderno 15">
+                    <img src="Fade/fade (16).jpeg" alt="Corte Moderno 16">
+                    <img src="Fade/fade (17).jpeg" alt="Corte Moderno 17">
+                    <h3>Corte Fade</h3>
+                </div>
+                <div class="corte Tijeras">
+                    <img src="Tijeras/corte (1).jpeg" alt="Corte Audaz 1">
+                    <img src="Tijeras/corte (2).jpeg" alt="Corte Audaz 2">
+                    <img src="Tijeras/corte (4).jpeg" alt="Corte Audaz 4">
+                    <img src="Tijeras/corte (5).jpeg" alt="Corte Audaz 5">
+                    <img src="Tijeras/corte (6).jpeg" alt="Corte Audaz 6">
+                    <img src="Tijeras/corte (7).jpeg" alt="Corte Audaz 7">
+                    <img src="Tijeras/corte (8).jpeg" alt="Corte Audaz 8">
+                    <h3>Corte con Tijeras</h3>
+                </div>
+                <!-- Agrega más cortes aquí -->
+            </div>
+        </section>
+    
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tiene alguna duda no olvide visitar mi página de Facebook:</p>
+            <a class="facebook-link" href="https://www.facebook.com/Barberia-Mr-Gonz%C3%A1lez-106443308087041/" target="_blank">Facebook</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Barbería Mr.Gonzalez. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="data.json"></script>
+    <script src="main.js"></script>
+</body>
+</html>

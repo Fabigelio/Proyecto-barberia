@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    background-color: #2d2d2b;
+    color: #cdd7d7;
+    font-family: 'Ysabeau', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d2d2b;
+    color: #cdd7d7;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 3px 1px;
+    background-color: #4267B2;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+    background-color: #29487D;
+}
+
+nav ul li a {
+    color: #cdd7d7;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+section {
+    padding: 50px;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #325c9b;
+    color: #cdd7d7;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #11489b;
+}
+
+.button:focus {
+    background-color: #CCCCCC;
+}
+
+/* Estilos específicos */
+#inicio {
+    background-color: #2d2d2b;
+    text-align: center;
+    
+}
+
+#inicio h2 {
+    font-size: 45px;
+    color: #325c9b;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#servicios ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #325c9b;
+}
+
+#contacto ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #325c9b;
+    color: #cdd7d7;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos adicionales */
+a {
+    color: #325c9b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.corte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corte img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ajusta la altura máxima según tus necesidades */
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.facebook-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4267B2;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.facebook-link:hover {
+    background-color: #29487D;
+}
